@@ -81,6 +81,19 @@ html {
     -webkit-animation: hue 10s infinite linear;
 }
 
+.white-space {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 6rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #f35626;
+    background-image: -webkit-linear-gradient(92deg, #ffffff, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 10s infinite linear;
+}
+
 .hue-bold {
     color: #f35626;
     background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
@@ -109,6 +122,22 @@ html {
     border-radius: 5rem;
     border: 3px solid;
 }
+
+#gallery {
+  width:82.5%;
+   -webkit-column-count:6; /* split it into 5 columns */
+   -webkit-column-gap:10px; /* give it a 5px gap between columns */
+   -moz-column-count:6;
+   -moz-column-gap:10px;
+   column-count:6;
+   column-gap:150px;
+}
+
+#gallery img:hover {
+   filter: grayscale(1);
+   transition: filter 2s;
+}
+
 
 .skills-icon {
     font-size: 3rem;
@@ -237,4 +266,3 @@ a{
 }
 
 /* --------------- */
-
